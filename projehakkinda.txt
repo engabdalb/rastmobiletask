@@ -1,0 +1,5 @@
+Bu proje bir form uygulaması olup girilen sosyal medya bilgilerini saklamayı amaçlıyor.
+Projeye başlamadan önce sayfa içeriğini component'lara böldüm. Gerekli componentları oluşturup tasarımlarını tamamladım.
+Service'leri yazarak tabloya verileri aktardım. Localstorage'i kullanarak girilen verilerin storage'te tutulabilmesini sağladım.
+Süreç içerisinde gerekli npm (datatable, form, jquery, bootstrap, fontawesome) gibi paketleri yükledim.
+ 

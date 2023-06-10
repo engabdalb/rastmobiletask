@@ -1,0 +1,134 @@
+
+/* Container */
+.container-fluid {
+  padding: 75px 44px 75px 44px;
+  background-color:#F5F5F5;
+  width:96%;
+}
+ /* Container */
+  /* Searchbar*/
+    .search-container {
+        display: flex;
+      position: relative;
+      flex-direction: row;
+      width:380px;
+    }
+
+    .search-container input{
+      border-radius: 39px;
+    }
+
+    /* Arama ikonunun stilini ayarla */
+    .search-container .search-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      cursor: pointer;
+      width:45px;
+      background-color: #744BFC;
+      color:#ffffff;
+      border-radius: 0px 39px 39px 0px;
+      
+    }
+  
+    .search-hero {
+        display: flex;
+         flex-direction: row;
+         height: 42px;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .search-hero {
+       justify-content: center;
+    }
+    }
+ /* Searchbar*/
+
+
+ /* Filter Button*/
+ .filter-button{
+  margin-left:9px;
+  width:49px;
+  height:42px;
+  border-radius: 29px;
+  background-color: #ffffff;
+  color:#744BFC;
+  border-color: transparent;
+}
+
+.filter-button:active{
+  background-color: #744BFC;
+  color:#ffffff;
+}
+/* Filter Button*/
+/*Add New Account Button */
+    .btn-container{
+      display: flex;
+      justify-content: end;
+    }
+    @media only screen and (max-width: 800px) {
+   .btn-container{
+    justify-content: center;
+    margin-top:10px;
+   }
+   }
+   
+/*Add New Account Button */
+ 
+  /*Table*/
+    table tr.odd td {
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    table{
+        margin-top:11px;  
+    }
+
+    table.dataTable.no-footer {
+        border-bottom: 0px ;
+        padding-bottom: 100px;
+    }
+    .data-table{
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+    }
+ /*Table*/
+
+
+
+/*Button styles*/
+
+.bg-btn-save{
+    background-color: #744BFC; 
+    color:#ffffff;
+}
+.bg-btn-save:active{
+  background-color: #ffffff; 
+  color:#744BFC;
+  border-color: transparent;
+}
+.bg-btn-cancel{
+  background-color: #ffffff; 
+  color:#744BFC; 
+  border-color: transparent;
+}
+.bg-btn-cancel:active{
+  background-color: #744BFC; 
+  color:#ffffff; 
+  border-color: transparent;
+}
+
+.bg-btn-add{
+  border-radius: 39px; 
+  color:#ffffff; 
+  background-color: #744BFC;
+}
+
+/*Button styles*/
+

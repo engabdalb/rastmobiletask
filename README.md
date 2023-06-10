@@ -25,3 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Generated
+
+The generated component will be stored in the `app/` directory.
+ng g c new-component --module app
+
+Projenin yazılmasında izlenilen adımları 'projehakkinda.txt' dosyasında bulabilirsiniz.
+
+
+ng add ngx-bootstrap
+npm install bootstrap @fortawesome/fontawesome-free
+npm install datatables.net --save
+npm install jquery --save
+npm install datatables.net-dt --save
+npm install angular-datatables --save
+npm i @ng-bootstrap/ng-bootstrap
+npm install @popperjs/core --save
+npm install @popperjs/core --save
+##styles.scss
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+

@@ -1,0 +1,45 @@
+
+/*Navbar styles*/
+.navbar {
+    background-color: white !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+
+
+.nav-item .nav-link i{
+    width: 18px !important;
+    height: 18px !important;
+    color:#744BFC;
+}
+
+
+.navbar-brand {
+  margin-left: 104px;
+}
+
+
+.navbar-collapse{
+text-align: center;  
+justify-content: space-evenly;
+}
+
+.navbar-space{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-center{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-center li{
+  margin-right: 14px;
+}
+
+/*Navbar styles*/
